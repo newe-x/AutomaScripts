@@ -27,4 +27,4 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
-        run: python3 dailyvuln.py
+        run: python3 dailyvuln/dailyvuln.py
